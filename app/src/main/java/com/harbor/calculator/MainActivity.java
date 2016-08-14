@@ -37,6 +37,7 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.i("onCreate", "Android calculator started.");
+        Log.d("Calculator", "onCreate() called with: " + "savedInstanceState = [" + savedInstanceState + "]");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
